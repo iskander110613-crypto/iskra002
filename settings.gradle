@@ -4,5 +4,7 @@ pluginManagement {
         gradlePluginPortal()
         maven { url = "https://maven.fabricmc.net/" }
     }
+    plugins {
+        id "fabric-loom" version "1.6.+" // или явно 1.6.11+
+    }
 }
-rootProject.name = "flytoggle"
