@@ -1,0 +1,6 @@
+{
+  "key.category.flytoggle.main": "Fly Toggle",
+  "key.flytoggle.toggle_flight": "Toggle Flight",
+  "message.flytoggle.on": "Flight enabled",
+  "message.flytoggle.off": "Flight disabled"
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "flytoggle",
+  "version": "${version}",
+  "name": "Fly Toggle",
+  "description": "Press + to toggle flight",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.flytoggle.FlyToggle"],
+    "client": ["com.example.flytoggle.client.FlyToggleClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
