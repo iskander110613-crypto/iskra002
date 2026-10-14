@@ -1,5 +1,5 @@
 plugins {
-    id "fabric-loom" version "1.5.+" // вместо 1.6-SNAPSHOT
+    id "fabric-loom" version "1.5.+"
     id "maven-publish"
 }
 
@@ -8,7 +8,6 @@ group = "com.example"
 
 loom {
     accessWidenerPath = file("src/main/resources/flytoggle.accesswidener")
-    minecraftVersion = "1.21.4"
     mappings "net.fabricmc:yarn:1.21.4+build.1:v2"
 }
 
